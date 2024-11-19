@@ -1,0 +1,68 @@
+<!DOCTYPE html> <!--La déclaration n'est pas une balise HTML. Il s'agit d'une "information" destinée au navigateur sur le type de document auquel il peut s'attendre.-->
+<html><!--La <html>balise représente la racine d'un document HTML, est le conteneur de tous les autres éléments HTML (à l'exception de la balise <!DOCTYPE> ).-->
+<head>  
+<meta charset="utf8"/> <!--l’encodage, ici utf-8 (pour les accents, caractères spéciaux...)-->
+  <!--La <meta> balise définit les métadonnées sur un document HTML.Les métadonnées sont des données (informations) sur les données.-->
+   <title>Passion Musique</title> <!-- balise définit le titre du document. Le titre doit être composé uniquement de texte et il est affiché dans la barre de titre du navigateur ou dans l'onglet de la page.-->
+   <link rel="stylesheet" href="index.css"> <!--La <link> balise définit la relation entre le document actuel et une ressource externe.-->
+<!--href, pour indiquer vers quelle page le lien doit conduire.-->
+</head>                       
+<body>                      
+<header> <!--L'<header> élément représente un conteneur pour le contenu d'introduction ou un ensemble de liens de navigation.-->
+        <figure> <!--La <figure> balise spécifie un contenu autonome, comme des illustrations, des diagrammes, des photos, des listes de codes, etc.-->
+    <img class="banner"src="maxresdefault.jpeg"alt="banner" title="musique classique"/> <!--L’attribut alt permet d’ajouter un texte alternatif si l’image ne peut pas être chargée. La plupart des formats d’images sont disponibles mais il faut préférer des images compressées (png, jpg, gif)-->
+        <figcaption>Site pédagogique:Musique Classique</figcaption>
+    <!--La <figcaption>balise définit une légende pour un élément <figure>.-->
+    </figure>                        
+</header>  
+<nav> <!--La <nav>balise définit un ensemble de liens de navigation.-->
+<a href="index.html" class="button button1">Pièces musicales</a>  <!-- <a> balise définit un lien hypertexte, qui permet de relier d'une page à une autre.-->
+<a href="beethoven.html"class="button button2">Beethoven</a>
+<a href="mozart.html"class="button button3">Mozart</a>
+<a href="mailto:technoeit1@gmail.com"class="button button1">Contactez-moi</a>
+  <style>   
+  .button {  
+    border: none;  
+    color: white;  
+    padding: 15px 32px;  
+    text-align: center;  
+    text-decoration: none;  
+    display: inline-block;  
+    font-size: 16px;  
+    margin: 4px 2px;  
+    cursor: pointer;  
+  }
+  .button1 {background-color: #04AA6D;} /* Green */
+  .button2 {background-color: #008CBA;} /* Blue */
+  .button3 {background-color: #11ffeeff;}/*red*/
+  </style>  
+<!--La <style> balise est utilisée pour définir les informations de style (CSS) pour un document.-->
+</nav>  
+<section> <!--La <section>balise définit une section dans un document.-->
+      <video src="video.mp4"controls> <!--  controls (pour ajouter lecture, stop, pause), width pour la taille du lecteur, loop pour jouer en boucle...-->
+    </video>  
+        <video src="video2.mp4"controls>
+    </video>
+    <audio src="musique.mp3"controls>
+    </audio>
+    <ul class="navigation"> <!--La <ul> balise définit une liste non ordonnée (à puces).-->
+    <li>><a href="articlebeethoven.html">
+    <h2>Ludwig Van Beethoven  </h2></a>
+      <!--Les balises <h1>to <h6>sont utilisées pour définir les titres HTML.-->
+    <p>Parmi les plus grands compositeurs,Beethoven a poussé le style et les forme de l'ère classique</br>
+    à leur maximum comme véhicule d'expression personnelle</p>
+      <!--La <p> balise définit un paragraphe.-->
+    </li> <!--La <li>balise définit un élément de liste.-->
+    <li><a href="articlemozart.html">
+    <h2>Wolfgang Amdeus Mozart</h2></a>
+    <p>Il a composé plus de 600 œuvres, dont plusieurs sont reconnues comme des sommets<br/> <!--La <br> balise insère un seul saut de ligne.-->
+    de la musique symphonique ,concertante , de chambre , d'opéra et chorale.<br/> 
+    Il est parmi les plus grands et les plus connus des compositeurs classiques,<br/>
+    et son influence est profonde sur la musique d'art occidentale ultérieure.</p>
+    </li>            
+    </ul>	            
+</section>            
+</body>            
+<footer><!--La <footer>balise définit un pied de page pour un document ou une section.-->
+</footer>        
+</html>    

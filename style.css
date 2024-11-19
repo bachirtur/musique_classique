@@ -1,0 +1,55 @@
+html
+{
+	font-size: 14px;        //définit la taille du texte
+	font-family:'open sans',sans-serif; //Spécifie la famille de polices. La valeur par défaut dépend du navigateur
+  //Sur les écrans d'ordinateur, sans-serif les polices sont considérées comme plus faciles à lire que les polices 
+  // serif. Quelques Exemples de polices. Famille de polices génériques, Exemples de noms de polices.
+}
+text-align: center;  //spécifie l'alignement horizontal du texte dans un élément. 
+  center//left// right//justify
+letter-spacing: 1px; // augmente ou diminue l'espace entre les caractères dans un texte.(-1px / 1px)
+line-height: 2;  // spécifie la hauteur d'une ligne.Remarque // Les valeurs négatives ne sont pas autorisées.
+  //normal // 200% // 1.6...
+body{
+    background-color: #0008ff;
+
+}
+//background-color:La propriété définit la couleur d’arrière-plan d’un élément.
+// L'arrière-plan d'un élément correspond à la taille totale de l'élément, y compris le remplissage et la bordure //(mais pas la marge). Astuce : utilisez une couleur d'arrière-plan et une couleur de texte qui rendent le texte //facile à lire.
+p{
+   color: #c0548d;
+   font-size: 20px;
+}
+h1
+
+	color: blue;
+}
+h2
+{
+  color: #634eca;
+}
+.banner
+		{width: 25%;//Les propriétés de hauteur et de largeur n'incluent pas le remplissage, les bordures ou les marges. 
+                //Il définit la hauteur/largeur de la zone à l'intérieur du remplissage, de la bordure et de la marge 
+                //de l'élément.
+		height:300px;
+		}
+.button{
+    background-color: gold
+}
+.navigation li {
+	float: left;
+}
+.navigation li a:hover{
+	background-color:#111;
+}
+.navigation{
+	liste-style-type:none; // spécifie le type de marqueur d'élément de liste dans une liste.(circle/ square/upper-roman/lower-alpha)
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	background-color: #999;
+}
+.navigation li a 
+{
+	display:block;//est utilisée pour spécifier comment un élément est affiché sur une page Web.
