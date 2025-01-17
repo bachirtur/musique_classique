@@ -1,0 +1,108 @@
+<!DOCTYPE html>  
+<head> 
+<meta charset="utf8"/>  
+   <title>Passion Musique</title>  
+   <link rel="stylesheet" href="index.css">  
+</head> 
+<body> 
+<header>                                                        
+
+        <figure>                                                      
+
+    <img class="banner"src="beethoven.jpeg"alt="banner" title="musique classique" alt="beethoven"width="25%"/>  
+  
+        <figcaption>Site pédagogique:Musique Classique</figcaption> 
+
+    </figure>             
+
+</header>              
+
+<nav>              
+
+<a href="index.html" class="button button1">Pièces musicales</a>   
+
+<a href="beethoven.html"class="button button2">Beethoven</a> 
+
+<a href="mozart.html"class="button button3">Mozart</a> 
+
+<a href="mailto:technoeit1@gmail.com"class="button button1">Contactez-moi</a> 
+
+  <style>      
+
+  .button {   
+
+    border: none; 
+
+    color: blue; 
+
+    padding: 15px 32px; 
+
+    text-align: center; 
+
+    text-decoration: none; 
+
+    display: inline-block; 
+
+    font-size: 16px; 
+
+    margin: 4px 2px; 
+
+    cursor: pointer; 
+
+  } 
+
+  .button1 {background-color: #04AA6D;} /* Green */ 
+
+  .button2 {background-color: #008CBA;} /* Blue */ 
+
+  .button3 {background-color: #11ffeeff;}/*red*/ 
+
+  </style> 
+
+</nav>  
+   <section>
+      <li><a href="https://archive.org/details/beethoven-selections">archive</a></li>
+      <li><audio src="symn7.mp3"controls></audio> </li>
+   </section>
+
+    <ul class="navigation">  
+
+    <li>><a href="articlebeethoven.html"> 
+
+    <h2>Ludwig Van Beethoven  </h2></a> 
+
+    <p>Parmi les plus grands compositeurs,Beethoven a poussé le style et les forme de l'ère classique</br> 
+
+    à leur maximum comme véhicule d'expression personnelle</br> 
+Et ceux tout en soufrant de trouble auditif qui ont débuté à 26 ans et se sont progressivement accentués au fil des années</br>
+si bien qu'à l'âge de 50 ans, il est devenu totalement sourd ! Et au cours de sa vie</br>   
+il a veillé à ce que très peu de monde le sache.</p>
+    </li>    
+
+    <li><a href="articlemozart.html"> 
+
+    <h2>Wolfgang Amdeus Mozart</h2></a> 
+
+    <p>Il a composé plus de 600 œuvres, dont plusieurs sont reconnues comme des sommets<br/> 
+
+    de la musique symphonique ,concertante , de chambre , d'opéra et chorale.<br/>  
+
+    Il est parmi les plus grands et les plus connus des compositeurs classiques,<br/> 
+
+    et son influence est profonde sur la musique d'art occidentale ultérieure.</p> 
+
+    </li> 
+
+    </ul>
+    
+</section> 
+
+</body> 
+
+<footer> 
+
+  Ahmed Noomane
+
+</footer> 
+
+</html>      
