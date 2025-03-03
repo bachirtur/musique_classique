@@ -29,6 +29,11 @@
      <video src="video.mp4"controls> </video> 
      <video src="video2.mp4"controls></video>
      <audio src="musique.mp3"controls></audio> <!--  controls (pour ajouter lecture, stop, pause), width pour la taille du lecteur, loop pour jouer en boucle...-->
+      <?php
+        $heure = date("H:i");
+         echo '<h1>Bienvenue sur mon site</h1>
+         <p>Il est '.$heure.'</p>';
+        ?>
 
     <ul class="navigation"> <!--La <ul> balise définit une liste non ordonnée (à puces).-->
     <li>><a href="articlebeethoven.html">
